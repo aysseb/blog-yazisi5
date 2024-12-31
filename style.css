@@ -1,0 +1,53 @@
+.blog-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/*Yazı Tipleri*/
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(109, 106, 106);
+}
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: rgb(36, 32, 32);
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 2rem;
+  color: rgb(36, 32, 32);
+}
+
+.blog-img {
+  width: 100%;
+  max-width: 600px;  
+ 
+ 
+}
+
+/*paragraf özellikleri*/
+
+.pad-bottom {
+  padding-bottom: 2rem;
+}
+.blog-paragraf{
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+/*Section1*/
+
+.img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
