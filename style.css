@@ -38,6 +38,7 @@
 .blog-paragraf {
   text-align: justify;
   padding-bottom: 1rem;
+  max-width: 600px;
 }
 
 /*Section1*/
@@ -71,5 +72,8 @@
   .poppins-semibold {
     font-size: 1.5rem;
     text-align: center;
+  }
+  .section1 img{
+    margin-left: 1rem;
   }
 }
