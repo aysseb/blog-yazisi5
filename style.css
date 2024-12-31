@@ -27,9 +27,7 @@
 
 .blog-img {
   width: 100%;
-  max-width: 600px;  
- 
- 
+  max-width: 600px;
 }
 
 /*paragraf özellikleri*/
@@ -37,9 +35,9 @@
 .pad-bottom {
   padding-bottom: 2rem;
 }
-.blog-paragraf{
-    text-align: justify;
-    padding-bottom: 1rem;
+.blog-paragraf {
+  text-align: justify;
+  padding-bottom: 1rem;
 }
 
 /*Section1*/
@@ -48,6 +46,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/*responsive*/
 
-  
+@media all and (max-width: 576px) {
+  .img-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog-img {
+    max-width: 90%;
+   
+  }
+  .blog-paragraf {
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+  }
+  .poppins-medium {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .poppins-semibold {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
